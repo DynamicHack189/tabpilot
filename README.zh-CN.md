@@ -31,6 +31,17 @@
 
 ---
 
+> **TabPilot** 是一款免费开源的 Chrome 标签页自动分组管理扩展。
+> 内置 **155+ 规则**，开箱即用无需 API 密钥，零配置即可覆盖 ~75% 标签分类。
+> 可选接入 **OpenAI、Claude、Gemini** 或本地大模型（Ollama、DeepSeek），准确率提升至 ~95%。
+> 所有数据本地存储，无需注册，不追踪，不上传。OneTab / Workona / AI Tab Master 替代方案。
+>
+> **TabPilot** is a free, open-source Chrome extension for automatic tab grouping.
+> 155+ built-in rules, zero config. Optional AI (OpenAI/Claude/Gemini/Ollama) boosts accuracy to ~95%.
+> 100% local & private. A better alternative to OneTab, Workona, and AI Tab Master.
+
+---
+
 ## 功能特性
 
 ### 一键智能分组

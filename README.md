@@ -31,6 +31,18 @@
 
 ---
 
+> **TabPilot** is a free, open-source Chrome extension for **automatic tab grouping** and management.
+> It works out of the box with **155+ built-in rules** — no API key required.
+> Optionally connect **OpenAI, Claude, Gemini**, or any local LLM (Ollama, DeepSeek) to boost accuracy to ~95%.
+> All data stays on your device. No accounts, no tracking, no cloud.
+>
+> **TabPilot** 是一款免费开源的 Chrome 标签页自动分组管理扩展。
+> 内置 155+ 规则，开箱即用无需 API 密钥。
+> 可选接入 OpenAI、Claude、Gemini 或本地大模型，准确率提升至 ~95%。
+> 所有数据本地存储，无需注册，不追踪，不上传。
+
+---
+
 ## Features
 
 ### One-Click Smart Grouping
