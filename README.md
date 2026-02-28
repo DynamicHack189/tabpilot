@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icons/icon-128.png" width="80" height="80" alt="TabPilot logo" />
+  <img src="public/icons/icon-128.png" width="80" height="80" alt="TabPilot logo" />
 </p>
 
 <h1 align="center">TabPilot</h1>
@@ -155,7 +155,6 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 If you find TabPilot useful, consider:
 
 - Starring the repo on GitHub
-- [Buy me a coffee](https://buymeacoffee.com/florianlanx)
 - Sharing it with friends
 
 ## License

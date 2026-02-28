@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icons/icon-128.png" width="80" height="80" alt="TabPilot logo" />
+  <img src="public/icons/icon-128.png" width="80" height="80" alt="TabPilot logo" />
 </p>
 
 <h1 align="center">TabPilot</h1>
@@ -155,7 +155,6 @@ pnpm typecheck        # 类型检查
 如果 TabPilot 对你有帮助，欢迎：
 
 - 在 GitHub 上 Star 这个项目
-- [请我喝杯咖啡](https://buymeacoffee.com/florianlanx)
 - 分享给你的朋友
 
 ## 许可证
